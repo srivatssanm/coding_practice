@@ -3,7 +3,7 @@ const one = ()=>{
 }
 const two = ()=>{
     setTimeout(() => {
-        console.log("I'm second");
+        console.log("I'm second log");
     }, 3000);
     console.log("hiiiiiiiiiiiiiiiiii");
 }
