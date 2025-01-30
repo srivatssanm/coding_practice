@@ -1,7 +1,7 @@
 // import User from "./domManipulation"
 const Course = require("./classjs")
 
-var user  = new Course("loki","loki@gmail.com");
+var user  = new Course("example","example@gmail.com");
 
 console.log(user.getinfo()); 
 user.addcourse("js");

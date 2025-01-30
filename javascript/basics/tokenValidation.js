@@ -2,7 +2,7 @@ const jsonwebtoken = require('jsonwebtoken');
 const authenticateJWT = (secretKey) => {
     console.log("1111");
     // return (req, res, next) => {
-        const token =  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiYXBwSUQiOiJjcy1iMjYwNGY1My1jNWI2LTU3ZGQtYTdhNS1jNGNmZTQwNDhlZjcifQ._66ZDtnJbN3_CgffnIFiddMZCntcM7tDgiySwT0bzVg";
+        const token =  "<<token>>";
         if (!token) {
             console.log("unauthorized !!!");
             // return res.status(401).json({ message: "Unauthorized user !! - Authentication required" });
@@ -20,5 +20,5 @@ const authenticateJWT = (secretKey) => {
         });
     };
 
-let secretKey = "xRJKbCSp5ZgrR1RTJJc+L3GPidLKQboDcYf4taa2GjA="
+let secretKey = "<<secret key>>"
 authenticateJWT (secretKey);
